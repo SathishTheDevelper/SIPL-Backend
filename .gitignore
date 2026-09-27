@@ -1,0 +1,25 @@
+# compiled
+/dist
+/node_modules
+/coverage
+/logs
+/frontend/* 
+# env
+.env
+.env.local
+.env.*.local
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# test artifacts
+*.log
+mongodb-memory-server*
+.cache
+
+# uploads
+/uploads
